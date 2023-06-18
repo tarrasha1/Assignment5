@@ -55,9 +55,9 @@ int main()
 	{
 		draw(hide);
 		printf("xมยวฅภิทย: ");
-		scanf_s("%d", &x);
-		printf("yมยวฅภิทย: ");
 		scanf_s("%d", &y);
+		printf("yมยวฅภิทย: ");
+		scanf_s("%d", &x);
 
 		x--;
 		y--;
