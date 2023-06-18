@@ -5,7 +5,7 @@
 ## 실행방법
 1. visual studio가 필요합니다.(vscode는 과정이 좀 복잡) [설치방법](https://kimvampa.tistory.com/96)
 2. 솔루션 설정, 디버깅 및 실행 [설정방법](https://dasima.xyz/c%EC%96%B8%EC%96%B4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EC%86%8C%EC%8A%A4-%ED%8C%8C%EC%9D%BC-%EC%83%9D%EC%84%B1/)
-3. 소스코드 복사 후 실행
+3. 소스코드 복사 후 붙여넣기해서 실행하거나 파일을 다운받은 후 프로젝트에 추가해서 실행
 
 ## 실행화면
 <img src="https://github.com/tarrasha1/Assignment5/assets/131227777/add7c355-b539-4cc7-bc45-d2031a9d0281" width="700" height="350">
