@@ -68,6 +68,10 @@ int main()
 	}
 	system("cls");
 
+	printf("Okay, 맵에 %d개의 지뢰가 생성됩니다\n", mine);
+	Sleep(3000);
+	system("cls");
+
 	for (int i = 0; i < mine; i++)	//지뢰생성
 	{
 		while (1)
