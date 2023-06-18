@@ -89,7 +89,10 @@ int main()
 			system("cls");
 			draw(hide);
 			printf("앗...꽝입니다\n");
-			Sleep(2000);
+			printf("아무키나 누르세요\n");
+
+			_getch(); // 아무 키나 누를 때까지 대기
+
 			break;
 		}
 		else if (hide[x][y] == 2)
@@ -106,6 +109,8 @@ int main()
 		system("cls");
 	}
 
+	system("cls");
+	printf("\n");
 	printf("지뢰위치\n");
 	draw(map);	//게임이 끝난후 맵에서 전체 지뢰위치 보여줌
 }
