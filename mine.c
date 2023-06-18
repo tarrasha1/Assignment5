@@ -49,8 +49,24 @@ int main()
 		}
 	}
 	showIntro();		//인트로 화면 보여주기
-	printf("생성할 지뢰개수를 입력해주세요(30x30)\n");
-	scanf_s("%d", &mine);
+	while (1)
+	{
+		printf("생성할 지뢰 개수를 입력해주세요 (30x30): ");
+		scanf_s("%d", &mine);
+
+		if (mine <= 0 || mine >= 900)
+		{
+			system("cls");
+			printf("맵 크기보다 작은 수를 입력해주세요.\n");
+			Sleep(1000);
+			system("cls");
+		}
+		else
+		{
+			break;
+		}
+	}
+	system("cls");
 
 	for (int i = 0; i < mine; i++)	//지뢰생성
 	{
